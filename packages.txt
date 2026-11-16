@@ -4,3 +4,6 @@ libglib2.0-0
 libgomp1
 libsm6
 libxext6
+libegl1
+libgles2
+libasound2t64
