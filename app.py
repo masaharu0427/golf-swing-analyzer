@@ -1325,7 +1325,7 @@ with col_side:
 
 with col_main:
     st.subheader("3. 動画のアップロード")
-    uploaded_file = st.file_uploader("スイング動画を選択またはドラッグ＆ドロップ（MP4 / MOV）", type=["mp4", "mov", "avi"])
+    uploaded_file = st.file_uploader("スイング動画を選択またはドラッグ＆ドロップ（MP4 / MOV）")
 
     if uploaded_file is not None:
         file_id = f"{uploaded_file.name}_{uploaded_file.size}"
